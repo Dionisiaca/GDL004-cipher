@@ -1,0 +1,85 @@
+body{
+    background: black;
+}
+
+h3{
+    font-size: 80px;
+    color: #FFC83C;
+    line-height: 5px;
+}
+
+h1{
+    font-size: 80px;
+    color: #366D2D;
+    font-family: Rhodium Libre;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 60px;
+    line-height: 10px;
+    letter-spacing: 0.5em;
+}
+
+h2{
+    color: #FAD77E;
+    font-family: Rhodium Libre;
+    font-size: 18px;
+    line-height: 31px;
+    letter-spacing: 0.2em;
+}
+
+textarea{
+    background-color: #393939;
+    border: 1px solid #393939;
+    color: white;
+    font-family: Rhodium Libre;
+    font-size: 12px;
+    width:400px;
+    height: 200px;
+    position: relative;
+    left: 150px;
+    top: 20px;
+}
+
+button{
+    background: #366D2D;
+    color:#FAD77E;
+    border: 1px solid #366D2D;
+    font-family: Rhodium Libre;
+    font-size: 14px;
+    letter-spacing: 0.2em;
+    width: 80px;
+    height: 30px;
+}
+
+button:focus{
+    background-color:#FAD77E;
+     color:#366D2D;
+    }
+
+
+label{
+    color: #FAD77E;
+    font-family: Rhodium Libre;
+    font-size: 14px;
+    letter-spacing: 0.5em;
+    position: relative;
+    right: 80px;
+}
+
+/*#cipherScreen{
+    display: none;
+} */
+
+#offset{
+    background-color: black; 
+    border: 1px solid #366D2D;
+    width: 5%;
+    margin: 2px 0;
+    padding: 4px;
+    box-sizing: border-box;
+    color: white;
+    text-align: center;
+    letter-spacing: 0.8em;
+    position: relative;
+    right: 80px;
+}

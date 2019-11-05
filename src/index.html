@@ -1,13 +1,50 @@
 <!DOCTYPE html>
 <html>
   <head>
+      <link href="https://fonts.googleapis.com/css?family=Rhodium+Libre&display=swap" rel="stylesheet">
     <meta charset="utf-8">
-    <title>Caesar Cipher</title>
+    <title>R A P T C I P H E R</title>
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <div id="root">
-      <h1>Hello world!</h1>
+    <!--Starting screen
+    <div id="startScreen">
+      <center>
+          <br/><br/>
+        <div id="header">
+          <h3>★</h3>   
+          <h1>RAPT</h1> 
+          <h2>Revolutionary Army of the People of Trasjasia</h2>
+        </div>
+        <br/><br/>
+        <input type="password" name= "password" id="password" placeholder="PASSWORD" required> 
+        <br/><br/>
+        <br/><br/>
+        <button type="submit" name="getin" id="getin" onclick="startCipher()">Enter</button>
+        <!--<input type="button" id="start" value="start">-->
+     <!--Cipher-->
+     <div id="cipherScreen">
+        <center>
+          <div id="cipherHeader"> 
+            <h3>★</h3>  
+            <h1>RAPT</h1>
+          </div>
+        <div id="menu">
+          <label>Offset</label>
+          <input type="number" name="offset" id="offset"> <!--cambiar number a text-->
+          <button type="submit" name="encode" id="encode">Encode</button>
+          <button type="submit" name="decode" id="decode">Decode</button>
+          <button type="reset" name="reset" id="resetBtn">Reset</button>
+        </div> <br></br>
+      </center>
+        <div id="cipherSpace">
+          <textarea type="text" name="txtBox" id="userMsg" placeholder="Write your text in capital letters" required></textarea>
+          <div id = "cipherTxt"> 
+            <p id="showResult"> Your message is... </p>
+          </div>
+        </div>
+      </div>
+      </center>
     </div>
     <script src="cipher.js"></script>
     <script src="index.js"></script>
