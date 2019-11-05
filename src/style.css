@@ -1,5 +1,6 @@
 body{
     background: black;
+    font-family: Rhodium Libre;
 }
 
 h3{
@@ -11,7 +12,6 @@ h3{
 h1{
     font-size: 80px;
     color: #366D2D;
-    font-family: Rhodium Libre;
     font-style: normal;
     font-weight: normal;
     font-size: 60px;
@@ -21,7 +21,6 @@ h1{
 
 h2{
     color: #FAD77E;
-    font-family: Rhodium Libre;
     font-size: 18px;
     line-height: 31px;
     letter-spacing: 0.2em;
@@ -31,7 +30,6 @@ textarea{
     background-color: #393939;
     border: 1px solid #393939;
     color: white;
-    font-family: Rhodium Libre;
     font-size: 12px;
     width:400px;
     height: 200px;
@@ -44,7 +42,6 @@ button{
     background: #366D2D;
     color:#FAD77E;
     border: 1px solid #366D2D;
-    font-family: Rhodium Libre;
     font-size: 14px;
     letter-spacing: 0.2em;
     width: 80px;
@@ -59,7 +56,6 @@ button:focus{
 
 label{
     color: #FAD77E;
-    font-family: Rhodium Libre;
     font-size: 14px;
     letter-spacing: 0.5em;
     position: relative;
@@ -73,13 +69,17 @@ label{
 #offset{
     background-color: black; 
     border: 1px solid #366D2D;
-    width: 5%;
+    width: 50px;
     margin: 2px 0;
     padding: 4px;
     box-sizing: border-box;
     color: white;
     text-align: center;
-    letter-spacing: 0.8em;
+    letter-spacing: 0.3em;
     position: relative;
     right: 80px;
+}
+
+#showResult{
+    color: whitesmoke;
 }
