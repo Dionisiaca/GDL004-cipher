@@ -1,5 +1,5 @@
 body{
-    background: black;
+    background-color: black;
     font-family: Rhodium Libre;
 }
 
@@ -24,18 +24,6 @@ h2{
     font-size: 18px;
     line-height: 31px;
     letter-spacing: 0.2em;
-}
-
-textarea{
-    background-color: #393939;
-    border: 1px solid #393939;
-    color: white;
-    font-size: 12px;
-    width:400px;
-    height: 200px;
-    position: relative;
-    left: 150px;
-    top: 20px;
 }
 
 button{
@@ -80,6 +68,28 @@ label{
     right: 80px;
 }
 
+#cipherSpace{
+    display: flex;
+    justify-content: center;
+}
+
 #showResult{
     color: whitesmoke;
+    letter-spacing: 0.2em;  
+    width:400px;
+    height: 200px;
+    padding-left: 50px;
+    
+}
+
+
+textarea{
+    background-color: #393939;
+    border: 1px solid #393939;
+    color: white;
+    font-size: 12px;
+    letter-spacing: 0.2em;
+    width:400px;
+    height: 200px;
+    padding: 10px;
 }
