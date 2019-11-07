@@ -22,3 +22,10 @@ document.getElementById("encode").addEventListener("click", encodeSentence);
 document.getElementById("decode").addEventListener("click", decodeSentence);
 
 /*BOTON RESET*/
+let resetBtn = document.getElementById("reset");
+resetBtn.addEventListener("click", resetData);
+function resetData() {
+  document.getElementById("offset").value = "";
+  document.getElementById("userMsg").value = "";
+  document.getElementById("cipherTxt").value = ""; /* no sé que indicador poner para que borre el texto traducido*/
+}
