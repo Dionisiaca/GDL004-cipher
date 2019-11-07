@@ -1,3 +1,16 @@
+/*BOTON INGRESAR*/
+document.getElementById("getin").addEventListener("click", startCipher);
+
+function startCipher(){
+  let secretPassword = document.getElementById("password").value;
+  if (secretPassword == "1234") {
+    document.getElementById("startScreen").style.display = "none";
+    document.getElementById("cipherScreen").style.display = "block";
+  }else {
+    alert("INVALID PASSWORD");
+  }
+}
+
 /*BOTONES CIFRAR Y DESCIFRAR*/
 function encodeSentence(){
 
@@ -28,4 +41,14 @@ function resetData() {
   document.getElementById("offset").value = "";
   document.getElementById("userMsg").value = "";
   document.getElementById("cipherTxt").value = ""; /* no sé que indicador poner para que borre el texto traducido*/
+}
+
+/*BOTON SALIR*/
+document.getElementById("exitBtn").addEventListener("click", exitCipher);
+
+function exitCipher(){
+  /*let exitAction = document.getElementById("exitBtn");*/
+  document.getElementById("cipherScreen").style.display = "none";
+  document.getElementById("startScreen").style.display = "block";
+
 }

@@ -7,8 +7,8 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <!--Starting screen
-    <div id="startScreen">
+    <!--Starting screen -->
+    <div id="startScreen" style="display: block">
       <center>
           <br/><br/>
         <div id="header">
@@ -21,9 +21,10 @@
         <br/><br/>
         <br/><br/>
         <button type="submit" name="getin" id="getin" onclick="startCipher()">Enter</button>
-        <!--<input type="button" id="start" value="start">-->
+      </center>
+    </div>
      <!--Cipher-->
-     <div id="cipherScreen">
+     <div id="cipherScreen" style="display: none">
         <center>
           <div id="cipherHeader"> 
             <h3>★</h3>  
@@ -36,16 +37,17 @@
           <button type="submit" name="encode" id="encode">Encode</button>
           <button type="submit" name="decode" id="decode">Decode</button>
           <button type="reset" name="reset" id="reset">Reset</button>
-        </div> <br></br>
-      </center>
+        </div> <br>
         <div id="cipherSpace">
           <textarea type="text" name="txtBox" id="userMsg" placeholder="Write your cipher message" required></textarea>
           <div id = "cipherTxt"> 
             <p id="showResult"> </p>
           </div>
         </div>
-      </div>
-      </center>
+        <div id="footer">
+          <button type="submit" name="exitBtn" id="exitBtn">EXIT</button>
+        </div>
+        </center>
     </div>
     <script src="cipher.js"></script>
     <script src="index.js"></script>

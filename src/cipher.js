@@ -37,4 +37,4 @@ window.cipher = {
     }
   }
   return decodeMsg;
-}}
+}};
