@@ -1,6 +1,6 @@
-# TÍTULO
+# RAPT CIPHER
 
-## Subtítulo
+## Contenidos
 
 * [1. Resumen del proyecto](#1-resumen-del-proyecto)
 * [2. Resultado](#2-resultado)
@@ -27,8 +27,9 @@ Este programa permite al usuario
 
 La plataforma de cifrado y descifrado utilizada por el RAPT se ve así:
 
-![prototipo1A](/src/images/protoinicio.jpeg)
-![prototipo2A](/src/images/protoheader.jpeg)
+![](/src/images/startCipher.jpeg)
+![](/src/images/infoCipher.jpeg)
+![](/src/images/finalCipher.jpeg)
 
 ## 3. Investigación UX
 
@@ -38,13 +39,12 @@ Este cipher **está dirigido a las personas que forman parte del RAPT, ya sea co
 
 En terminos de diseño, se optó por un maquetado simple, sin muchos aditamentos decorativos que entorpezcan su funcionalidad. La idea es que sea una plataforma fácil y rápida de utilizar, sin complicar la experiencia del usuario. La paleta de colores comparte los mismos tonos de la bandera del RAPT(verde y amarillo), y su logotipo de la estrella amarilla se muestra en las pantallas como elemento identitario:
 
-![] (/src/images/colors.png)
+![](/src/images/colors.png)
 
 El cipher le permite a los usuarios cubrir las siguientes necesidades:
 
-* Cifrar y descifrar mensajes en código césar
-* Garantizar la confidencialidad de las comunicaciones 
-Comunicarse de manera simple y efectiva, reduciendo el 
+* Garantizar la confidencialidad de las comunicaciones del RAPT
+* Codificar y decodificar mensajes secretos
 
 **El primer prototipado del cipher se veía así:**
 
@@ -62,7 +62,7 @@ Se pidió retroalimentación a varias personas para corroborar la claridad y fun
 
 **Prototipo final**
 
-![prototipofinalStart](/src/images/protoinicio.jpeg)
+![prototipofinalStart](/src/images/protoStart.jpeg)
 
-![prototipofinalCipher](/src/images/protoheader.jpeg)
+![prototipofinalCipher](/src/images/protoCipher.jpeg)
 
