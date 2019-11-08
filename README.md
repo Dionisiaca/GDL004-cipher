@@ -6,7 +6,7 @@
 * [2. Resultado](#2-resultado)
 * [3. Investigación UX](#3-investigacion-ux)
 
-*** (divisor)
+***
 
 ## 1. Resumen del proyecto
 
@@ -27,9 +27,9 @@ Este programa permite al usuario
 
 La plataforma de cifrado y descifrado utilizada por el RAPT se ve así:
 
-![](/src/images/startCipher.jpeg)
-![](/src/images/infoCipher.jpeg)
-![](/src/images/finalCipher.jpeg)
+![](/src/images/startCipher.png)
+![](/src/images/infoCipher.png)
+![](/src/images/finalCipher.png)
 
 ## 3. Investigación UX
 
@@ -62,7 +62,7 @@ Se pidió retroalimentación a varias personas para corroborar la claridad y fun
 
 **Prototipo final**
 
-![prototipofinalStart](/src/images/protoStart.jpeg)
+![prototipofinalStart](/src/images/protoStart.png)
 
-![prototipofinalCipher](/src/images/protoCipher.jpeg)
+![prototipofinalCipher](/src/images/protoCipher.png)
 
