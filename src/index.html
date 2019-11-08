@@ -9,46 +9,48 @@
   <body>
     <!--Starting screen -->
     <div id="startScreen" style="display: block">
-      <center>
-          <br/><br/>
-        <div id="header">
-          <h3>★</h3>   
-          <h1>RAPT</h1> 
-          <h2>Revolutionary Army of the People of Trasjasia</h2>
-        </div>
-        <br/><br/>
-        <input type="password" name= "password" id="password" placeholder="PASSWORD" required> 
-        <br/><br/>
-        <br/><br/>
-        <button type="submit" name="getin" id="getin" onclick="startCipher()">Enter</button>
-      </center>
+      <div id="startHeader">
+        <h3>★</h3>   
+        <h1>RAPT</h1> 
+        <h2>Revolutionary Army of the People of Trasjasia</h2>
+      </div>
+      <div id="startMain">
+        <input type="password" name= "password" id="password" placeholder="PASSWORD" required>
+        <br><br><button type="submit" name="getin" id="getin" onclick="startCipher()">ENTER</button>
+        <br><br><br><br><button type="submit" name="info" id="info" onclick="showInfo()">ABOUT RAPT</button>
+      </div>
     </div>
      <!--Cipher-->
-     <div id="cipherScreen" style="display: none">
-        <center>
-          <div id="cipherHeader"> 
-            <h3>★</h3>  
-            <h1>RAPT</h1>
-            <br>
-          </div>
-        <div id="menu">
+    <div id="cipherScreen" style="display: none" class="box">
+      <div id="cipherHeader"> 
+        <h3>★</h3>  
+        <h1>RAPT</h1>
+      </div>
+      <div id="cipherMain">
+        <div id="nav">
           <label>Offset</label>
           <input type="number" name="offset" id="offset" required> <!--cambiar number a text-->
           <button type="submit" name="encode" id="encode">Encode</button>
           <button type="submit" name="decode" id="decode">Decode</button>
           <button type="reset" name="reset" id="reset">Reset</button>
-        </div> <br>
-        <div id="cipherSpace">
+        </div><br> 
+        <div class="cipherSpace">
           <textarea type="text" name="txtBox" id="userMsg" placeholder="Write your cipher message" required></textarea>
-          <div id = "cipherTxt"> 
-            <p id="showResult"> </p>
-          </div>
-        </div>
+          <textarea type="text" name="rsltBox" id="showResult" placeholder="Get your message here"></textarea>
+        </div><br>
         <div id="footer">
           <button type="submit" name="exitBtn" id="exitBtn">EXIT</button>
         </div>
-        </center>
+      </div>
     </div>
+    <!--Info-->
+    <div id="infoScreen" class="aboutScreen" style="display: none">
+      <p>La República de Trasjasia es una nación ubicada en el corazón de Asia Central, antes parte de la ya disuelta Unión de Repúblicas Socialistas Tarbanas (URST). 
+
+          Con un territorio rico en recursos minerales y con significantes reservas petrolíferas e hídricas; desde su independencia en 1990 Trasjasia ha luchado por consolidar un Estado fuerte y una economía estable que aporte bienestar a su población. Sin embargo, el Partido Socialista de Trasjasia (PST) ha cooptado la democracia Trasjasa a través de la figura presidencial, que lleva más de tres décadas en el poder. 
+          Ante la situación de corrupción, desigualdad económica, fricciones étnicas y conflictos territoriales que se viven en Trasjasia,  el Ejército Revolucionario del Pueblo de Trasjasia (RAPT, por sus siglas en inglés) surge como un movimiento de organización popular e independiente que busca lograr la destitución del actual presidente, convocar a nuevas elecciones democráticas y liberar el territorio Trasjaso de la influencia Tarbana con el objetivo de mejorar la vida de sus habitantes. </p>
+      <br><button type="submit" name="back" id="back">GO BACK</button>
+        </div>
     <script src="cipher.js"></script>
     <script src="index.js"></script>
   </body>

@@ -27,14 +27,42 @@ Este programa permite al usuario
 
 La plataforma de cifrado y descifrado utilizada por el RAPT se ve así:
 
-![imagen](https://upload.wikimedia.org/wikipedia/commons/thumb/2/2b/Caesar3.svg/2000px-Caesar3.svg.png)
+![prototipo1A](/src/images/protoinicio.jpeg)
+![prototipo2A](/src/images/protoheader.jpeg)
 
 ## 3. Investigación UX
 
+Este cipher **está dirigido a las personas que forman parte del RAPT, ya sea como parte de las fuerzas militares, altos mandos y/o unidades de inteligencia**. Todos los mensajes dentro de la organización se mandan utilizando este programa, y deben ser decodificados en el mismo.
 
-_cursivas_
+**Para garantizar la seguridad de la plataforma y su cifrado, se pide una contraseña para ingresar**, misma que se difunde de manera cautelosa entre sus miembros y cambia con frecuencia. 
 
+En terminos de diseño, se optó por un maquetado simple, sin muchos aditamentos decorativos que entorpezcan su funcionalidad. La idea es que sea una plataforma fácil y rápida de utilizar, sin complicar la experiencia del usuario. La paleta de colores comparte los mismos tonos de la bandera del RAPT(verde y amarillo), y su logotipo de la estrella amarilla se muestra en las pantallas como elemento identitario:
 
+![] (/src/images/colors.png)
 
-- [ ] checkbox
+El cipher le permite a los usuarios cubrir las siguientes necesidades:
+
+* Cifrar y descifrar mensajes en código césar
+* Garantizar la confidencialidad de las comunicaciones 
+Comunicarse de manera simple y efectiva, reduciendo el 
+
+**El primer prototipado del cipher se veía así:**
+
+![prototipo1A](/src/images/protoinicio.jpeg)
+
+![prototipo2A](/src/images/protoheader.jpeg)
+
+Se pidió retroalimentación a varias personas para corroborar la claridad y funcionalidad del cipher, así como contemplar mejoras para el proyecto. Entre el _feedback_ recibido, destacan los siguientes puntos:
+
+* El diseño es acorde con el concepto del cipher. Las personas podían adivinar la temática sin necesidad de tener que explicar que se trataba de una plataforma diseñada para una organización militar.
+* La maqueta sencilla le daba funcionalidad y claridad al diseño. 
+* Las personas que lo probaron pudieron adivinar la secuencia de las acciones e intuir fácilmente cómo era el proceso para cifrar/descifrar mensajes. 
+* Se comentó la posibilidad de poner un botón que permitiera al usuario salir del cipher para volver al inicio, para mayor confidencialidad.
+* Se sugirió que el botón de _reset_ se colocara en la parte superior, junto a los botones de _encode_, _decode_ y _offset_.
+
+**Prototipo final**
+
+![prototipofinalStart](/src/images/protoinicio.jpeg)
+
+![prototipofinalCipher](/src/images/protoheader.jpeg)
 

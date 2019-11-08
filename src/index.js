@@ -40,7 +40,8 @@ resetBtn.addEventListener("click", resetData);
 function resetData() {
   document.getElementById("offset").value = "";
   document.getElementById("userMsg").value = "";
-  document.getElementById("cipherTxt").value = ""; /* no sé que indicador poner para que borre el texto traducido*/
+  document.getElementById("showResult").value = ""; /* no sé que indicador poner para que borre el texto traducido*/
+  
 }
 
 /*BOTON SALIR*/
@@ -50,5 +51,25 @@ function exitCipher(){
   /*let exitAction = document.getElementById("exitBtn");*/
   document.getElementById("cipherScreen").style.display = "none";
   document.getElementById("startScreen").style.display = "block";
+  document.getElementById("password").value = "";
+  
 
+}
+
+/*BOTON INFO*/
+document.getElementById("info").addEventListener("click", showInfo);
+
+function showInfo(){
+  document.getElementById("infoScreen").style.display = "block";
+  document.getElementById("startScreen").style.display = "none";
+  document.getElementById("cipherScreen").style.display = "none";
+}
+
+/*BOTON GO BACK*/
+document.getElementById("back").addEventListener("click", goBack);
+
+function goBack(){
+  document.getElementById("infoScreen").style.display = "none";
+  document.getElementById("startScreen").style.display = "block";
+  document.getElementById("cipherScreen").style.display = "none";
 }
