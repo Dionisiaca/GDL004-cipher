@@ -117,6 +117,7 @@ textarea{
     padding: 10px;
     position: relative;
     right: 65%;
+    opacity: .8;
 }
 
 #showResult{
