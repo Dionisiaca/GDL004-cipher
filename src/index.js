@@ -7,7 +7,7 @@ function startCipher(){
     document.getElementById("startScreen").style.display = "none";
     document.getElementById("cipherScreen").style.display = "block";
   }else {
-    alert("INVALID PASSWORD");
+    alert("INVALID PASSWORD. Try with 1234");
   }
 }
 
